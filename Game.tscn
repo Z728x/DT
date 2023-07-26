@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://bubeoogriqhwx"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_xt21p"]
+
+[node name="Node" type="Node"]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.7031)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.135035, -0.0874433, -1.16162)
+mesh = SubResource("BoxMesh_xt21p")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.770335, 0.637639, 0, -0.637639, 0.770335, 0, 0.701168, 0)
