@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://dba521bltjeuq"]
+[gd_scene load_steps=5 format=3 uid="uid://dba521bltjeuq"]
 
 [ext_resource type="Script" path="res://Button.gd" id="1_x7l51"]
+[ext_resource type="Script" path="res://Quit.gd" id="2_74ugv"]
 
 [sub_resource type="FontFile" id="FontFile_bnic8"]
 cache/0/16/0/ascent = 0.0
@@ -2014,6 +2015,7 @@ offset_top = 66.0
 offset_right = 143.0
 offset_bottom = 166.0
 text = "QUIT"
+script = ExtResource("2_74ugv")
 
 [node name="LinkButton" type="LinkButton" parent="."]
 offset_left = -63.0
